@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+
+</body>
+<script>
+    function countNA() {
+        let str = prompt("nhập vào 1 chuỗi bất kì");
+        let count = 0;
+        let strarray = str.split("");
+        for (let i = 0; i < strarray.length; i++) {
+            switch (strarray[i]) {
+                case "a":
+                    count++;
+                    break
+                case "i":
+                    count++;
+                    break
+                case "e":
+                    count++;
+                    break
+                case "o":
+                    count++;
+                    break
+                case "u":
+                    count++;
+                    break
+            }
+
+        }
+    if (count === 0){
+        return false;
+    }else {
+        alert("Số lượng nguyên âm là:" + " " + count)
+    }
+    }
+    countNA();
+</script>
+</html>

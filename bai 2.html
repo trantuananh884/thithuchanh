@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+
+</body>
+<script>
+function findIndex(a,array) {
+    let result ="Không tìm thấy";
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === a){
+            result = "Tìm thấy ở vị trí" + " " +i;
+        }
+    }
+document.write(result);
+}
+let array = [0,1,2,3,4];
+findIndex(5,array);
+</script>
+</html>

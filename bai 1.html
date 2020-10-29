@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giai phuong trinh bac nhat</title>
+</head>
+<body>
+
+</body>
+<script>
+    let result = "";
+    function Solvequation(a,b) {
+        let c = 0;
+        if (a === 0 && b=== 0){
+            result = "phương trình vô số nghiệm";
+        }else if (a === 0 && b!== 0){
+            result = "phương trình vô nghiệm"
+        }else {
+            c = -b/a;
+            result = "phuong trình có nghiệm là" + ":" + " " +c;
+        }
+    }
+
+Solvequation(5,8);
+    alert(result);
+</script>
+</html>
